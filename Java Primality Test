@@ -1,0 +1,19 @@
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
+public class JavaPrimalityTest {
+    public static void main(String[] args) throws IOException {
+        Scanner sc=new Scanner(System.in);
+        BigInteger n=new BigInteger(sc.nextLine());
+        if(n.isProbablePrime(2)==true){
+            System.out.println("prime");
+        }
+        else{
+            System.out.println("not prime");
+        }
+    }
+}
